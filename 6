@@ -1,0 +1,9 @@
+ kubectl exec -it nginx-curler -n exam-zoyirjon -- sh
+# curl http://10.233.47.98/check-ingress
+{domain:10.233.47.98,endpoint:/check-ingress,full_path::10.233.47.98/check-ingress}
+# curl http://10.233.47.98/check-ingress > 6
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100    96  100    96    0     0  19749      0 --:--:-- --:--:-- --:--:-- 24000
+# exit
+
